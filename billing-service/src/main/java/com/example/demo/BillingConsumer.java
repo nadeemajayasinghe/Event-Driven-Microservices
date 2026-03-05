@@ -1,3 +1,8 @@
+package main.java.com.example.demo;
+
+import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.stereotype.Service;
+
 @Service
 public class BillingConsumer {
 
